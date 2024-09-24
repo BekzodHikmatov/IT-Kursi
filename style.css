@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+    background-color: orange;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    color: white;
+}
+
+article {
+    width: 400px;
+    height: 360px;
+    padding: 12px;
+    background-color: black;
+    border-radius: 20px;
+    border-top-left-radius: 10px solid cyan;
+}
+
+h1 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.bb {
+    color: rgb(246, 117, 117);
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    font-size: 12px;
+}
+
+ul {
+    color: blue;
+}
+
+a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    transition: 1s;
+}
+
+.rang {
+    color: red;
+}
